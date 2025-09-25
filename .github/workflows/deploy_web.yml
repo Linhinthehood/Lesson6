@@ -24,8 +24,8 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          # Pin a specific stable version to avoid resolver issues
-          flutter-version: "3.22.2"
+          # Pin Flutter to match Dart SDK >=3.9 required by pubspec
+          flutter-version: "3.35.4"
           # Remove channel when pinning version
           cache: true
 
